@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Placement Test</title>
+    <link rel="stylesheet" href="style/quiz.css">
+</head>
+<body>
+    <div class="container" id="questions-screen">
+        <div class="quiz-header">
+            <h1>English Placement Test</h1>
+            <p>Test your current English proficiency level</p>
+        </div>
+        <div id="question-container"></div>
+        <button onclick="submitTest()" class="submit-btn">Submit Answers</button>
+    </div>
+
+    <div class="container" id="result-screen" style="display:none;">
+        <div class="result-header">
+            <h1>Test Result</h1>
+            <p>Your English Proficiency Level</p>
+        </div>
+        <div class="score-container">
+            <div class="score" id="result-score"></div>
+            <div class="score-description" id="score-level"></div>
+        </div>
+        <a href="regist.html" class="package-btn">Daftar Sekarang</a>
+    </div>
+
+    <script src="js/quiz.js"></script>
+</body>
+</html>

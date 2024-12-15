@@ -1,0 +1,76 @@
+body{
+ 
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; /* Pastikan tinggi badan penuh */
+}
+
+
+.FAQ{
+  display: flex;
+  justify-content: center;
+  
+}
+.FAQ h1{
+  font-size: 40px;
+  color: rgb(3,48,95);
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.FAQ{
+  color: white;
+}
+.faq-container {
+  width: 1270px;
+  margin: auto;
+  height: auto;
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 20px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-title {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(3,48,95);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.faq-title:hover {
+  background: #f1f1f1;
+}
+
+.faq-content {
+  display: none;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(3,48,95);
+  text-align: justify;
+}
+
+.faq-title.active + .faq-content {
+  display: block;
+}
+

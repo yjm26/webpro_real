@@ -1,0 +1,187 @@
+
+.header {
+  font-family: 'Inter', sans-serif;
+  z-index: 1000; /* Ensure it stays above other content */
+  position: fixed; /* Fix the header to the top of the viewport */
+  top: 0; /* Align it to the top */
+  width: 100%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #FFFFFF;
+  padding: 10px 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+}
+
+
+.header-mid {
+  display: flex;
+  justify-content: end; 
+  flex-grow: 1; 
+}
+
+
+.header a {
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+.header a.logo {
+  padding: 0;
+  color: rgb(3,48,95);
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: auto; 
+  margin-left: 20px;
+}
+
+
+.header-right {
+  margin-left: 20px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-right: 20px; 
+}
+
+
+
+.button-28 {
+  appearance: none;
+  background-color: rgb(3,48,95);
+  border: 1px solid rgb(3,48,95);;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  min-width: 0;
+  outline: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: rgb(3,48,95);
+  background-color: #FFFFFF;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+@media screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    padding: 30px 0;
+    flex-direction: row;
+  }
+  .header-mid {
+    display: flex;
+    justify-content: end; 
+    flex-grow: 1; 
+  }
+  
+  .header-right {
+    justify-content: flex-end;
+
+  }
+
+  .header a {
+    color: black;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 8px;
+    border-radius: 4px;
+  }
+  
+  
+  .header a.logo {
+    padding: 0;
+    color: rgb(3,48,95);
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: auto; 
+  }
+  
+  
+  .header-right {
+    margin-left: 20px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  
+.button-28 {
+  appearance: none;
+  background-color: rgb(3,48,95);
+  border: 1px solid rgb(3,48,95);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 6px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  min-width: 0;
+  outline: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: rgb(3,48,95);
+  background-color: #FFFFFF;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+}

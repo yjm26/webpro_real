@@ -1,0 +1,18 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+.main-content {
+  margin: 0 auto; /* Pusatkan konten jika diperlukan */
+  max-width: 1270px; /* Batasi lebar maksimal */
+  padding: 0 20px; /* Beri sedikit padding di kiri dan kanan */
+}
+
+h1, p, a, header {
+  margin: 0;
+  padding: 0;
+}
+

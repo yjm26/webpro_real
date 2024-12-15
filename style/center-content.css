@@ -1,0 +1,102 @@
+.center-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%
+}
+
+.center-content-container h1 {
+  color: rgb(3, 48, 95);
+}
+.bottom-item-judul h2{
+  color: rgb(3, 48, 95);
+}
+
+.center-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.center-content-container-bot {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bottom-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1270px;
+  padding: 0 50px;
+  height: auto;
+}
+
+
+.bottom-item-desc{
+  display: grid;
+  justify-content: center;
+  width: 352px;
+  height: 188px;
+  margin-bottom: 20px;
+}
+
+.bottom-item p {
+  margin: 0;
+  font-size: 14px;
+  text-align: justify;
+  font-weight: 200;
+  font-color: #BEBD88;
+}
+
+.bottom-item-more {
+  height: 70px;
+}
+
+.bottom-item {
+  padding: 50px 20px;
+  align-items: center;
+  border-radius: 4px;
+  border: solid 0.1px rgb(211, 211, 211 );
+  width: 350px;
+  height: 400px;
+  position: relative; /* tambahkan ini */
+  box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+
+}
+
+.bottom-item-desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 352px;
+    height: 188px;
+    }
+
+.bottom-item-number{
+  border-radius: 8px;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+  padding: 5px 5px;
+  background-color: rgb(3,48,95);
+}
+
+.bottom-item-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-image{
+  object-fit: cover;
+  border-radius: 8px;
+  width: 280px;
+  height: 190px;
+
+}
